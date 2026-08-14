@@ -3,7 +3,8 @@
 // 21 AUGUST 2026 - 12:00 AM
 // ==========================================
 
-const birthday = Date.now() + 10000;
+const birthday = new Date("August 21, 2026 00:00:00"
+).getTime();
 const timer = setInterval(() => {
 
     const now = new Date().getTime();
